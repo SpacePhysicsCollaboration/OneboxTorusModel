@@ -1,0 +1,5 @@
+set terminal jpeg
+set output 'gplot.jpeg'
+set logscale y
+plot 'ftsp.dat', 'fts2p.dat','fts3p.dat', 'ftop.dat', 'fto2p.dat'
+
